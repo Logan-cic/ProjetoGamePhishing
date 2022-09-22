@@ -1,0 +1,21 @@
+
+
+"
+  child: Card(
+        child: ListTile(
+          leading: Image.asset("images/user.png", scale: 42),
+          title: Text("Banco Bradesco",
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.white,
+              )),
+          subtitle: const Text("para mim",
+              style: TextStyle(
+                fontSize: 14,
+                color: Colors.white,
+              )),
+          tileColor: Colors.black,
+        ),
+      ),
+
+"
