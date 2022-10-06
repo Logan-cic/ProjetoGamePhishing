@@ -25,10 +25,7 @@ class EmailBody extends StatelessWidget {
                 padding: const EdgeInsets.only(top: 6),
                 child: Column(
                   children: [
-                    Image.asset(
-                      "images/logo_bradesco.png",
-                      scale: 6,
-                    ),
+                 
                      Text(
                         contents,
                         style: TextStyle(fontSize: 16, color: Colors.white)),
@@ -38,3 +35,10 @@ class EmailBody extends StatelessWidget {
         ));
   }
 }
+
+/*
+   Image.asset(
+                      "images/logo_bradesco.png",
+                      scale: 6,
+                    ),
+*/

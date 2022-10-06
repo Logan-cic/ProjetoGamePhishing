@@ -1,0 +1,83 @@
+class ChatModel {
+  final String name;
+  final String message;
+  final String time;
+  final String avatarUrl;
+
+  ChatModel({
+    required this.name,
+    required this.message,
+    required this.time,
+    required this.avatarUrl,
+   
+  });
+}
+
+List<ChatModel> dummyData = [
+  new ChatModel(
+    name: "Stephen",
+    message: "Hey Flutter, You are amazing !",
+    time: "15:30",
+    avatarUrl: "https://randomuser.me/portraits/men/88.jpg",
+  ),
+  new ChatModel(
+    name: "Brian",
+    message: "Hey Flutter, You are amazing !",
+    time: "15:30",
+    avatarUrl: "https://randomuser.me/portraits/women/51.jpg",
+  ),
+  new ChatModel(
+    name: "Danial",
+    message: "Hey Flutter, You are amazing !",
+    time: "15:30",
+    avatarUrl: "https://randomuser.me/portraits/men/42.jpg",
+  ),
+  new ChatModel(
+    name: "Cloie",
+    message: "Hey Flutter, You are amazing !",
+    time: "15:30",
+    avatarUrl: "https://randomuser.me/portraits/women/43.jpg",
+  ),
+  new ChatModel(
+    name: "Randale",
+    message: "Hey Flutter, You are amazing !",
+    time: "15:30",
+    avatarUrl: "https://randomuser.me/portraits/women/15.jpg",
+  ),
+  new ChatModel(
+    name: "Monica",
+    message: "Hey Flutter, You are amazing !",
+    time: "15:30",
+    avatarUrl: "https://randomuser.me/portraits/women/3.jpg",
+  ),
+  new ChatModel(
+    name: "Henley",
+    message: "Hey Flutter, You are amazing !",
+    time: "15:30",
+    avatarUrl: "https://randomuser.me/portraits/women/2.jpg",
+  ),
+  new ChatModel(
+    name: "Morgan",
+    message: "Hey Flutter, You are amazing !",
+    time: "15:30",
+    avatarUrl: "https://randomuser.me/portraits/men/1.jpg",
+  ),
+  new ChatModel(
+    name: "Donathan",
+    message: "Hey Flutter, You are amazing !",
+    time: "15:30",
+    avatarUrl: "https://randomuser.me/portraits/men/5.jpg",
+  ),
+  new ChatModel(
+    name: "Jamson",
+    message: "Hey Flutter, You are amazing !",
+    time: "15:30",
+    avatarUrl: "https://randomuser.me/portraits/men/6.jpg",
+  ),
+  new ChatModel(
+    name: "Harry",
+    message: "Hey Flutter, You are amazing !",
+    time: "15:30",
+    avatarUrl: "https://randomuser.me/portraits/men/11.jpg",
+  ),
+];

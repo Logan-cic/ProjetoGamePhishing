@@ -12,7 +12,6 @@ class ShippingInformation extends StatelessWidget {
       required this.emailRecipient})
       : super(key: key);
       
-  get title => null;
 
   void setSender(String sender) {
     sender = sender;
@@ -100,6 +99,7 @@ class ShippingInformation extends StatelessWidget {
               ],
             ),
           ),
-        ));
+        )
+    );
   }
 }

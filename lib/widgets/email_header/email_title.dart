@@ -9,28 +9,30 @@ class EmailTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-        padding: const EdgeInsets.only(left: 2),
+        padding: const EdgeInsets.all(20),
         child: Container(
-          height: 120,
-          width: 350,
+          height: 70,
+          width: double.infinity,
           decoration: BoxDecoration(
             color: Colors.black,
           ),
           child: TextField(
             decoration: InputDecoration(
-                label: Text(label, 
-                style: TextStyle(
-                fontSize: 26,
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
+                  label: Text(label,
+                  textDirection: TextDirection.ltr,
+                  style: TextStyle(
+                  fontSize: 22,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
-            ),
-          )
+            )
+          ),
         ),
-      ),
     );
   }
 }
+
 
 
  
