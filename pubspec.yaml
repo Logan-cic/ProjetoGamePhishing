@@ -64,6 +64,11 @@ flutter:
     - images/logo_bradesco.png
     - images/nubank.jpg
     - images/transferir.png
+    - images/paypal.jpg
+    - images/inter.jpg
+    - images/netflix.jpg
+    - images/amazon.jpg
+    - images/disney.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
