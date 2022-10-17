@@ -21,7 +21,7 @@ class EmailTitle extends StatelessWidget {
                   label: Text(label,
                   textDirection: TextDirection.ltr,
                   style: TextStyle(
-                  fontSize: 22,
+                  fontSize: 26,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),

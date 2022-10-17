@@ -3,8 +3,7 @@ import 'package:flutter/material.dart';
 class EmailBody extends StatelessWidget {
   final String contents;
 
-  const EmailBody({Key? key, required this.contents})
-      : super(key: key);
+  const EmailBody({Key? key, required this.contents}) : super(key: key);
 
   void setContents(String contents) {
     contents = contents;
@@ -25,12 +24,13 @@ class EmailBody extends StatelessWidget {
                 padding: const EdgeInsets.only(top: 6),
                 child: Column(
                   children: [
-                 
-                     Text(
-                        contents,
+                    Text(contents,
                         style: TextStyle(fontSize: 16, color: Colors.white)),
                   ],
-                ))
+                )
+                
+              )
+              
           ]),
         ));
   }
