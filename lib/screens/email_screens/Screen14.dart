@@ -42,29 +42,7 @@ class Screen14 extends StatelessWidget {
                             "Se foi você ou outra pessoa que mora na sua residência: \nDivirta-se!\n\nSe foi outra pessoa: \nLembre-se de que somente as pessoas que moram na sua residência podem usar sua conta.\n\nSe foi outra pessoa: \nRecomendamos alterar imediatamente sua senha para manter a segurança da conta. \nAcesse o link: http://help.netflixoficial.com/pt/  "),
                   ),
                 ),
-                Center(
-                  child: ElevatedButton(
-                    child: const Text("Next"),
-                    onPressed: () {
-                      print("you clicked the next button");
-
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) {
-                        return Screen15();
-                      }));
-                    },
-                  ),
-                ),
-                Center(
-                  child: ElevatedButton(
-                    child: const Text("Back"),
-                    onPressed: () {
-                      print("you clicked the Back button");
-
-                      Navigator.pop(context);
-                    },
-                  ),
-                ),
+                
               ],
             ),
           ),

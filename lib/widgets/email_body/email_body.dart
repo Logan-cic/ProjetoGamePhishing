@@ -27,10 +27,7 @@ class EmailBody extends StatelessWidget {
                     Text(contents,
                         style: TextStyle(fontSize: 16, color: Colors.white)),
                   ],
-                )
-                
-              )
-              
+                ))
           ]),
         ));
   }

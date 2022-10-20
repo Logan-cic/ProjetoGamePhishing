@@ -33,7 +33,7 @@ class Screen1 extends StatelessWidget {
                     sender: "voude99",
                     emailSender: "<voude99@99app.com>",
                     emailRecipient: "logancardoso4@gamil.com"),
-                SizedBox(width: 10),
+                SizedBox(height: 14),
                 Image.asset('images/99.jpg'),
                 Container(
                   height: 460,
@@ -44,7 +44,16 @@ class Screen1 extends StatelessWidget {
                             "Vem gastar menos e ganhar mais! \n Acesse o link: https://99app.com/99pay/dia-de-cashback/"),
                   ),
                 ),
-                Center(
+               
+              ],
+            ))),
+      ),
+    );
+  }
+}
+
+/*
+ Center(
                   child: ElevatedButton(
                     child: const Text("Next"),
                     onPressed: () {
@@ -67,9 +76,4 @@ class Screen1 extends StatelessWidget {
                     },
                   ),
                 ),
-              ],
-            ))),
-      ),
-    );
-  }
-}
+*/

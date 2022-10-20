@@ -42,29 +42,7 @@ class Screen7 extends StatelessWidget {
                             "Faz tempo que a gente não se fala. Queria te ouvir e melhorar a experiência que você teve. Topa me ajudar? É só responder essa pesquisa rapidinho. O link para a pesquisa: https://pesquisaifood.com/jfe/form/SV_2fNiVw3jkVGl4Q6"),
                   ),
                 ),
-                Center(
-                  child: ElevatedButton(
-                    child: const Text("Next"),
-                    onPressed: () {
-                      print("you clicked the next button");
-
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) {
-                        return Screen8();
-                      }));
-                    },
-                  ),
-                ),
-                Center(
-                  child: ElevatedButton(
-                    child: const Text("Back"),
-                    onPressed: () {
-                      print("you clicked the Back button");
-
-                      Navigator.pop(context);
-                    },
-                  ),
-                ),
+                
               ],
             ),
           ),

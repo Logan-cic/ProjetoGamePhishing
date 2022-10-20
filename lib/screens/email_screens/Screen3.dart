@@ -44,7 +44,17 @@ class Screen3 extends StatelessWidget {
                             "Pode ser que você tenha notado que na semana passada nosso site www.groupsantander.com estava funcionando instável.\nDevido a este problema, recentemente atualizamos nosso banco de dados, melhorando nossos sistemas de segurança,\nNo entanto, para concluir esta atualização e otimizar a capacidade de funcionamento de suas contas bancárias, você deve insira os detalhes da sua conta para sincronizar com nossa nova base de clientes e verifique nosso novo sistema de proteção de dados.\n\n Use este link www.santander.com para verificar seus dados."),
                   ),
                 ),
-                Center(
+                
+              ],
+            ))),
+      ),
+    );
+  }
+}
+
+/*
+
+Center(
                   child: ElevatedButton(
                     child: const Text("Next"),
                     onPressed: () {
@@ -67,38 +77,6 @@ class Screen3 extends StatelessWidget {
                     },
                   ),
                 ),
-              ],
-            ))),
-      ),
-    );
-  }
-}
-
-/*
-
-@override
-  Widget build(BuildContext context) {
-    return Container(
-      height: 460,
-      child: MaterialApp(
-        home: Scaffold(
-        backgroundColor: Colors.black,
-            appBar: AppBar(
-              backgroundColor: Colors.black,
-              elevation: 0,
-              title: const Text("Tela 1"),
-
-            ),
-            body: SingleChildScrollView(
-                child: Column(
-              children: [
-              
-              ],
-            ))),
-      ),
-    );
-  }
-}
 
 
 

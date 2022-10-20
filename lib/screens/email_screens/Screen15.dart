@@ -42,29 +42,7 @@ class Screen15 extends StatelessWidget {
                             "Acesse o link e confira as ofertas: \nhttps://www.amazon.com.br/events/saldaodocliente/"),
                   ),
                 ),
-                Center(
-                  child: ElevatedButton(
-                    child: const Text("Next"),
-                    onPressed: () {
-                      print("you clicked the next button");
-
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) {
-                        return HomePage();
-                      }));
-                    },
-                  ),
-                ),
-                Center(
-                  child: ElevatedButton(
-                    child: const Text("Back"),
-                    onPressed: () {
-                      print("you clicked the Back button");
-
-                      Navigator.pop(context);
-                    },
-                  ),
-                ),
+          
               ],
             ),
           ),

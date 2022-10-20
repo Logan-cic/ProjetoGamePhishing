@@ -42,29 +42,7 @@ class Screen13 extends StatelessWidget {
                             "Você só tem mais três dias para aproveitar seu primeiro mês de Disney+ por apenas R\$ 4,90. Assine até ‌19 de setembro para garantir essa oferta especial e assistir a grandes lançamentos como Thor: Amor e Trovão da Marvel Studios e Pinóquio da Disney.\nSujeito aos termos.*\n\nAproveite a oferta:\nhttps://www.disneymais.com/pt-br?cid=dss-Disneyplus-email-HPM2QTI244-20220916"),
                   ),
                 ),
-                Center(
-                  child: ElevatedButton(
-                    child: const Text("Next"),
-                    onPressed: () {
-                      print("you clicked the next button");
-
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) {
-                        return Screen14();
-                      }));
-                    },
-                  ),
-                ),
-                Center(
-                  child: ElevatedButton(
-                    child: const Text("Back"),
-                    onPressed: () {
-                      print("you clicked the Back button");
-
-                      Navigator.pop(context);
-                    },
-                  ),
-                ),
+               
               ],
             ),
           ),

@@ -43,7 +43,17 @@ class Screen2 extends StatelessWidget {
                             "Parabéns, \n\nVocê foi um dos ganhadores na premiação do concurso Tudo no Roxinho. O Nubank nasceu com a missão de descomplicar o dia a dia das pessoas, principalmente quando se trata de vida financeira. Oferecemos produtos e serviços simples de usar e que podem ser acompanhados totalmente pelo aplicativo. \n\n\nE com a promoção “Tudo no Roxinho” não é diferente. Lançada hoje, 16 de maio de 2022, ela vai durar três meses, com quatro sorteios de R\$ 10 mil por mês, durante o período da promoção e um grande prêmio de R\$ 300 mil ao final da promoção, que se encerra em setembro deste ano. \n\nEntre no nosso site e resgate sua premiação: \nhttps://nunbank.com.br/premio"),
                   ),
                 ),
-                Center(
+                
+              ],
+            ))),
+      ),
+    );
+  }
+}
+
+
+/*
+Center(
                   child: ElevatedButton(
                     child: const Text("Next"),
                     onPressed: () {
@@ -66,9 +76,4 @@ class Screen2 extends StatelessWidget {
                     },
                   ),
                 ),
-              ],
-            ))),
-      ),
-    );
-  }
-}
+ */

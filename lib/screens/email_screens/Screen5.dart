@@ -70,29 +70,7 @@ class Screen5 extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Center(
-                    child: ElevatedButton(
-                      child: const Text("Next"),
-                      onPressed: () {
-                        print("you clicked the next button");
-
-                        Navigator.push(context,
-                            MaterialPageRoute(builder: (context) {
-                          return Screen6();
-                        }));
-                      },
-                    ),
-                  ),
-                  Center(
-                    child: ElevatedButton(
-                      child: const Text("Back"),
-                      onPressed: () {
-                        print("you clicked the Back button");
-
-                        Navigator.pop(context);
-                      },
-                    ),
-                  ),
+                  
                 ],
               ),
             ),

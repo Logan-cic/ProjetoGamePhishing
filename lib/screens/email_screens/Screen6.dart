@@ -42,29 +42,6 @@ class Screen6 extends StatelessWidget {
                               "Com o Inter, você tem LIBERDADE DE ESCOLHA. Ao fazer a Portabilidade de Consignado, você decide se quer ter troco na mão, para realizar mais sonhos, ou se quer reduzir as suas parcelas, para economizar mês a mês.\n\nAlém dos nossos benefícios tradicionais, ao portar seu Consignado acima de R\$ 100 mil para o Inter, você ganha um Cartão Inter Black, para fazer compras no crédito e ter toda a exclusividade que merece. \n\nAcesse o link e saiba mais: https://www.bancointer.com.br/pra-voce/"),
                     ),
                   ),
-                  Center(
-                    child: ElevatedButton(
-                      child: const Text("Next"),
-                      onPressed: () {
-                        print("you clicked the next button");
-
-                        Navigator.push(context,
-                            MaterialPageRoute(builder: (context) {
-                          return Screen7();
-                        }));
-                      },
-                    ),
-                  ),
-                  Center(
-                    child: ElevatedButton(
-                      child: const Text("Back"),
-                      onPressed: () {
-                        print("you clicked the Back button");
-
-                        Navigator.pop(context);
-                      },
-                    ),
-                  ),
                 ],
               ),
             ),
