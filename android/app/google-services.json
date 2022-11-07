@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "649069742554",
+    "project_id": "game-phishing",
+    "storage_bucket": "game-phishing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649069742554:android:6c8afa0ab022a3ba1658e3",
+        "android_client_info": {
+          "package_name": "com.example.projeto_game_phishing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649069742554-8k0rsgkm1cstl771bmnc6n0g2hurco3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWjXOt8E4g6uakV2V8oo2WS7ri1zTJr38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649069742554-8k0rsgkm1cstl771bmnc6n0g2hurco3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
