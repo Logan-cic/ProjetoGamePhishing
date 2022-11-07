@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mensage_screen/screens/email_screens/Screen4.dart';
+
 import '../../widgets/email_body/email_body.dart';
 import '../../widgets/email_header/shipping_information.dart';
 import '../../widgets/email_header/email_title.dart';
@@ -18,7 +18,7 @@ class Screen3 extends StatelessWidget {
             appBar: AppBar(
               backgroundColor: Colors.black,
               elevation: 0,
-              title: Text(
+              title: const Text(
                 "Game Phishing",
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
@@ -26,11 +26,11 @@ class Screen3 extends StatelessWidget {
             body: SingleChildScrollView(
                 child: Column(
               children: [
-                EmailTitle(
+                const EmailTitle(
                     label:
                         "Você acaba de receber o inforemail Santander - Instabilidade no sistema"),
-                SenderCard(label: "Banco Santander"),
-                ShippingInformation(
+                const SenderCard(label: "Banco Santander"),
+                const ShippingInformation(
                     sender: "Banco Santander",
                     emailSender: "info@asantander.com",
                     emailRecipient: "cadymaureria@amail.com"),
@@ -38,13 +38,12 @@ class Screen3 extends StatelessWidget {
                 Container(
                   height: 460,
                   color: Colors.black,
-                  child: Center(
+                  child: const Center(
                     child: EmailBody(
                         contents:
                             "Pode ser que você tenha notado que na semana passada nosso site www.groupsantander.com estava funcionando instável.\nDevido a este problema, recentemente atualizamos nosso banco de dados, melhorando nossos sistemas de segurança,\nNo entanto, para concluir esta atualização e otimizar a capacidade de funcionamento de suas contas bancárias, você deve insira os detalhes da sua conta para sincronizar com nossa nova base de clientes e verifique nosso novo sistema de proteção de dados.\n\n Use este link www.santander.com para verificar seus dados."),
                   ),
                 ),
-                
               ],
             ))),
       ),

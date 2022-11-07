@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mensage_screen/screens/email_screens/Screen8.dart';
 import '../../widgets/email_body/email_body.dart';
 import '../../widgets/email_header/shipping_information.dart';
 import '../../widgets/email_header/email_title.dart';

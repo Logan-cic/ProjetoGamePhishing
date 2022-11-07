@@ -1,4 +1,4 @@
-name: mensage_screen
+name: projeto_game_phishing
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -72,6 +72,10 @@ flutter:
     - images/disney.jpg
     - images/99.jpg
     - images/ifood.jpg
+    - images/wapp_fundo.jpg
+    - images/wappFundo.png
+    - images/icone_zap.jpg
+    - images/illust.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

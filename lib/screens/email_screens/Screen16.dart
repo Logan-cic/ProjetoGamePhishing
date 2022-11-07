@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../home/home_page.dart';
 import '../../widgets/email_header/email_title.dart';
 import '../../widgets/email_header/sender_card.dart';
 import '../../widgets/email_header/shipping_information.dart';
@@ -33,7 +32,9 @@ class Screen16 extends StatelessWidget {
                     sender: "Amazon Inc.",
                     emailSender: "infosecurity@amazon.com.br",
                     emailRecipient: "logancardoso4@gamil.com"),
+
                 SizedBox(height: 14),
+
                 Container(
                   height: 602,
                   width: 390,
@@ -132,8 +133,7 @@ class Screen16 extends StatelessWidget {
                       ),
                     ],
                   ),
-                ),
-                
+                ),              
               ],
             ),
           ),

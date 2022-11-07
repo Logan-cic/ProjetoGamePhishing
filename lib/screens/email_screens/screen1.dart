@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:mensage_screen/screens/email_screens/Screen2.dart';
 import '../../widgets/email_body/email_body.dart';
 import '../../widgets/email_header/shipping_information.dart';
 import '../../widgets/email_header/email_title.dart';
 import '../../widgets/email_header/sender_card.dart';
-import 'Screen2.dart';
 
 class Screen1 extends StatelessWidget {
-  const Screen1({Key? key}) : super(key: key);
+  late TextEditingController controller;
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +34,7 @@ class Screen1 extends StatelessWidget {
                 SizedBox(height: 14),
                 Image.asset('images/99.jpg'),
                 Container(
-                  height: 460,
+                  height: 110,
                   color: Colors.black,
                   child: Center(
                     child: EmailBody(
@@ -44,36 +42,42 @@ class Screen1 extends StatelessWidget {
                             "Vem gastar menos e ganhar mais! \n Acesse o link: https://99app.com/99pay/dia-de-cashback/"),
                   ),
                 ),
-               
+                Container(
+                  color: Colors.white,
+                  child: Row(
+                    children: [
+                      SizedBox(
+                        height: 100,
+                      ),
+                      SizedBox(
+                        width: 120,
+                      ),
+                      ElevatedButton(onPressed: () {}, child: Text("Sim")),
+                      SizedBox(
+                        width: 30,
+                      ),
+                      ElevatedButton(onPressed: () {}, child: Text("Não")),
+                    ],
+                  ),
+                ),
+                Container(
+                  height: 200,
+                  color: Colors.white,
+                  child: Column(
+                    children: [
+                      const SizedBox(
+                        height: 16,
+                      ),
+                      ElevatedButton(
+                          child: const Text("Open Dialog"), onPressed: () {}),
+                    ],
+                  ),
+                )
               ],
             ))),
       ),
     );
+
+    
   }
 }
-
-/*
- Center(
-                  child: ElevatedButton(
-                    child: const Text("Next"),
-                    onPressed: () {
-                      print("you clicked the next button");
-
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) {
-                        return Screen2();
-                      }));
-                    },
-                  ),
-                ),
-                Center(
-                  child: ElevatedButton(
-                    child: const Text("Back"),
-                    onPressed: () {
-                      print("you clicked the Back button");
-
-                      Navigator.pop(context);
-                    },
-                  ),
-                ),
-*/
